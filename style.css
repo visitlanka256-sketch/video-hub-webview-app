@@ -1,1 +1,42 @@
 
+body {
+  margin:0;
+  font-family: Arial;
+  background:#111;
+  color:#fff;
+}
+
+header {
+  padding:10px;
+  background:#000;
+}
+
+input {
+  width:100%;
+  padding:8px;
+  margin-top:8px;
+}
+
+.banner {
+  background:#222;
+  padding:15px;
+  margin:10px;
+  border-radius:10px;
+}
+
+.video {
+  background:#1c1c1c;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+}
+
+video, iframe {
+  width:100%;
+  border-radius:10px;
+}
+
+button {
+  padding:6px 10px;
+  margin-top:5px;
+}

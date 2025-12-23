@@ -1,0 +1,13 @@
+public class MainActivity extends AppCompatActivity {
+ WebView web;
+
+ protected void onCreate(Bundle b){
+  super.onCreate(b);
+  setContentView(R.layout.activity_main);
+
+  web = findViewById(R.id.web);
+  web.getSettings().setJavaScriptEnabled(true);
+  web.getSettings().setDomStorageEnabled(true);
+  web.loadUrl("https://visitlanka256-sketch.github.io/video-hub-webview-app/");
+ }
+}
